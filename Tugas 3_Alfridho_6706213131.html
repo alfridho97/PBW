@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> ALF WEB</title>
+</head>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 30px;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana, Geneva, Tahoma, sans-serif;">
+
+<div style="background-color:#91d3ff;padding:15px;">
+  <h1>SbuxAl</h1>
+  <h3>Enak di perut sangat enak di kantong</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">Makanan</div>
+    <div class="menuitem">Minuman</div>
+    <div class="menuitem">Merchandise</div>
+  </div>
+
+  <div class="main">
+    <h2>Makanan</h2>
+    <h3>Croisant</h3>
+    <p>Croisant atau roti sabit adalah sejenis kue kering (pastry) yang berasal dari Prancis, dinamakan demikian karena bentuknya menyerupai bulan sabit</p>
+    <img src="croisant.jpeg" style="width:100%">
+  </div>
+
+  <div class="col-3 right">
+    <h2>Apa itu Croisant?</h2>
+    <p>Croisant (roti sabit) adalah sejenis kue kering (pastry)</p>
+    <h2>Dari mana asal Croisant?</h2>
+    <p>Croisant ini berasal dari Perancis dalam artian roti khas Perancis</p>
+    <h2>Berapa harganya?</h2>
+    <p>$3000</p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> Web ini dibuat untuk memenuhi Tugas Pemograman Berbasis Web 1</div>
+
+</body>
+</html>
+
